@@ -16,4 +16,4 @@ for _ in range(t):
             i += 1
         print(li[n])
     else:
-        print(2**(n-1))        
+        print(2**(n-1)
