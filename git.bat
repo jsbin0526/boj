@@ -1,3 +1,6 @@
-git add %1.py
-git commit -m "%1"
-git push
+@echo off
+SET /A n=%1
+git.exe add %n%.py
+git.exe commit -m "%n%"
+git.exe push
+exit
