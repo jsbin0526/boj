@@ -1,0 +1,4 @@
+a, b, c = sorted(map(int, input().split()))
+if c >= a + b:
+    c = a + b - 1
+print(a + b + c)
