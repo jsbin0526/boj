@@ -1,8 +1,3 @@
-"""
-pseudo code
-
-"""
-
 n = int(input())
 left_list = list(map(int, input().split()))
 height_list = [i for i in range(n)]
